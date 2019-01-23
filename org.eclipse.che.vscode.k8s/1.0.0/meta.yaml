@@ -1,7 +1,7 @@
 id: org.eclipse.che.vscode.k8s
 version: 1.0.0
 type: Theia plugin
-name: Vscode k8s plugin
+name: k8s-plugin
 title: k8s extension
 description: k8s extension
 icon: https://www.eclipse.org/che/images/ico/16x16.png
