@@ -1,0 +1,8 @@
+id: org.eclipse.che.plugin.image-builder
+version: 1.0.0
+type: Che Plugin
+name: image-builder-plugin
+title: Image Builder Plugin
+description: Eclipse Che Pugin for building images without Docker
+icon: https://raw.githubusercontent.com/theia-ide/theia/master/logo/theia-logo-no-text-black.svg?sanitize=true
+url: https://github.com/azatsarynnyy/che7-plugins/blob/master/che-image-builder-plugin/che-image-builder-plugin.tar.gz?raw=true
