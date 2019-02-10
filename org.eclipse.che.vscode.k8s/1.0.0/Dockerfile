@@ -1,4 +1,4 @@
-FROM eclipse/che-theia:0.3.19-nightly
+FROM azatsarynnyy/theia-endpoint-runtime
+WORKDIR /usr/local/bin
 RUN wget https://storage.googleapis.com/kubernetes-release/release/v1.13.3/bin/linux/amd64/kubectl && chmod +x ./kubectl
-USER root
-RUN mv ./kubectl /usr/local/bin/kubectl
+RUN mkdir /.kube && chmod g+w /.kube
