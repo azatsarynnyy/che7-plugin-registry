@@ -1,5 +1,5 @@
 id: org.eclipse.che.vscode.k8s
-version: 1.0.0
+version: master
 type: VS Code extension
 name: k8s-plugin
 title: k8s extension
