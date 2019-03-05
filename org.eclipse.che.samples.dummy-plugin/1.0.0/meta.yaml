@@ -5,4 +5,4 @@ name: Dummy-plugin
 title: Dummy theia plugin
 description: Dummy theia plugin
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
-url: https://github.com/ws-skeleton/che-dummy-plugin/releases/download/new/hello_world_plugin.theia
+url: https://github.com/azatsarynnyy/che7-plugin-registry/blob/master/org.eclipse.che.samples.dummy-plugin/1.0.0/sag_is_navigator.theia?raw=true
