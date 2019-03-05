@@ -1,0 +1,8 @@
+id: org.eclipse.che.samples.dummy-plugin
+version: 1.0.0
+type: Theia plugin
+name: Dummy-plugin
+title: Dummy theia plugin
+description: Dummy theia plugin
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+url: https://github.com/ws-skeleton/che-dummy-plugin/releases/download/new/hello_world_plugin.theia
