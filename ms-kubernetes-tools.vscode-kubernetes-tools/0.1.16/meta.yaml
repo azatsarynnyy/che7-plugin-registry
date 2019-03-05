@@ -3,12 +3,12 @@ version: 0.1.16
 type: VS Code extension
 name: Kubernetes
 title: Kubernetes Tools
-description: An extension for developers building applications to run in Kubernetes clusters, and for DevOps staff troubleshooting Kubernetes applications.
+description: Develop, deploy and debug Kubernetes applications
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 publisher: Red Hat, Inc.
 repository: https://github.com/Azure/vscode-kubernetes-tools
-category: k8s
+category: Other
 firstPublicationDate: "2019-02-21"
 attributes:
   extension: "vscode:extension/ms-kubernetes-tools.vscode-kubernetes-tools"
-  containerImage: "azatsarynnyy/che-k8s-plugin:0.1.16"
+  containerImage: "azatsarynnyy/che-kubernetes-tools-plugin:0.1.16"
