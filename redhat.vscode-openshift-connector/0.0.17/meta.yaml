@@ -4,8 +4,7 @@ type: VS Code extension
 name: OpenShift Connector
 title: OpenShift Connector
 description: Interacting with Red Hat OpenShift clusters and providing a streamlined developer experience using Eclipse Che
-url: https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/vscode-openshift-connector
-/0.0.17/vspackage
+url: https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/vscode-openshift-connector/0.0.17/vspackage
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 publisher: Red Hat, Inc.
 repository: https://github.com/redhat-developer/vscode-openshift-tools
