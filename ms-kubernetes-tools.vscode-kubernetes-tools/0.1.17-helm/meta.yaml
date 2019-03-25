@@ -1,5 +1,5 @@
 id: ms-kubernetes-tools.vscode-kubernetes-tools
-version: 0.1.17
+version: 0.1.17-helm
 type: VS Code extension
 name: Kubernetes
 title: Kubernetes Tools
