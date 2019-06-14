@@ -12,7 +12,7 @@ category: Other
 firstPublicationDate: "2019-05-14"
 spec:
   containers:
-    - image: "eclipse/che-remote-plugin-kubernetes-tooling-1.0.0:next"
+    - image: "azatsarynnyy/che-kubernetes-tools-plugin:1.0.0"
       memoryLimit: "1G"
   extensions:
     - https://github.com/Azure/vscode-kubernetes-tools/releases/download/1.0.0/vscode-kubernetes-tools-1.0.0.vsix
