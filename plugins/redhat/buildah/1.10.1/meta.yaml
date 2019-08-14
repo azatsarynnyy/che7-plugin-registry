@@ -12,7 +12,7 @@ category: Other
 firstPublicationDate: "2019-08-14"
 spec:
   containers:
-    - image: "buildah/stable:v1.10.1"
+    - image: "quay.io/buildah/stable:v1.10.1"
       name: "builder"
       memoryLimit: "1Gi"
       mountSources: true
