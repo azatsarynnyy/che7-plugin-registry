@@ -17,9 +17,9 @@ spec:
       memoryLimit: "1Gi"
       mountSources: true
       commands:
-    - name: build an image
-      workingDir: $(project)
-      command:
-      - buildah
-      - bud
-      - .
+      - name: build an image
+        workingDir: $(project)
+        command:
+        - buildah
+        - bud
+        - .
