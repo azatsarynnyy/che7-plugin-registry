@@ -1,0 +1,25 @@
+apiVersion: v2
+publisher: redhat
+name: buildah
+version: 1.10.1
+type: Che Plugin
+displayName: Buildah based image builder
+title: Buildah image builder
+description: Building the container images with Buildah from Eclipse Che
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/containers/buildah
+category: Other
+firstPublicationDate: "2019-08-14"
+spec:
+  containers:
+    - image: "buildah/stable:v1.10.1"
+      name: "image builder"
+      memoryLimit: "1Gi"
+      mountSources: true
+      commands:
+    - name: build an image
+      workingDir: $(project)
+      command:
+      - buildah
+      - bud
+      - .
