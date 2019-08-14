@@ -12,7 +12,7 @@ category: Other
 firstPublicationDate: "2019-08-14"
 spec:
   containers:
-    - image: "quay.io/buildah/stable:v1.10.1"
+    - image: "azatsarynnyy/che-redhat-buildah-plugin"
       name: "builder"
       memoryLimit: "1Gi"
       mountSources: true
